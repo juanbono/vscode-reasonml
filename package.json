@@ -196,6 +196,16 @@
         "language": "reason.hover.type",
         "scopeName": "source.reason.hover.type",
         "path": "./syntaxes/reason-hover-type.json"
+      },
+      {
+        "language": "menhir",
+        "scopeName": "source.menhir",
+        "path": "./syntaxes/Menhir.tmLanguage"
+      },
+      {
+        "language": "ocamllex",
+        "scopeName": "source.ocamllex",
+        "path": "./syntaxes/Ocamllex.tmLanguage"
       }
     ],
     "languages": [
@@ -240,6 +250,18 @@
       },
       {
         "id": "reason.hover.type"
+      },
+      {
+        "id": "ocamllex",
+        "aliases": ["OCamllex"],
+        "extensions": [".mll"],
+        "configuration": "./ocamllex.configuration.json"
+      },
+      {
+        "id": "menhir",
+        "aliases": ["Menhir", "OCamlyacc"],
+        "extensions": [".mly"],
+        "configuration": "./menhir.configuration.json"
       }
     ],
     "menus": {
